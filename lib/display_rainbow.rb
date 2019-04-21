@@ -5,5 +5,6 @@ def display_rainbow(colors)
     print "#{color[0].upcase}: #{color}"
     print ", " if i != colors.length
   end
+    print "\n"
   
 end
